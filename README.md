@@ -1,4 +1,17 @@
 # 构建过程
 ```shell script
-$ CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build main.go
+$ make build-windows
+```
+
+```json
+{
+  "description":"json svn data",
+  "data": [
+    {
+      "svn_server":"[包含]",
+      "jenkins_server":"[jenkins URL]"
+    }
+  ]
+}
+
 ```
