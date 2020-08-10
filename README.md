@@ -2,7 +2,7 @@
 ```shell script
 $ make build-windows
 ```
-
+## 使用方法 (Windows)
 ```json
 {
   "description":"json svn data",
@@ -14,4 +14,8 @@ $ make build-windows
   ]
 }
 
+```
+
+```shell script
+svn-hook --REPOS=%REPOS% --TXN=%TXN% --LOG_PATH=E://svn.log --JENKINS_DATA=jenkins-data.json
 ```
